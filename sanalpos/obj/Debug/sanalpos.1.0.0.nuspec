@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>sanalpos</id>
+    <version>1.0.0</version>
+    <authors>sanalpos</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="CP.VPOS" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="110.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.ServiceModel.Duplex" version="4.10.2" exclude="Build,Analyzers" />
+        <dependency id="System.ServiceModel.Federation" version="4.10.2" exclude="Build,Analyzers" />
+        <dependency id="System.ServiceModel.Http" version="4.10.2" exclude="Build,Analyzers" />
+        <dependency id="System.ServiceModel.NetTcp" version="4.10.2" exclude="Build,Analyzers" />
+        <dependency id="System.ServiceModel.Security" version="4.10.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ERYAZ\source\repos\sanalpos\sanalpos\bin\Debug\net7.0\sanalpos.runtimeconfig.json" target="lib\net7.0\sanalpos.runtimeconfig.json" />
+    <file src="C:\Users\ERYAZ\source\repos\sanalpos\sanalpos\bin\Debug\net7.0\sanalpos.dll" target="lib\net7.0\sanalpos.dll" />
+  </files>
+</package>
